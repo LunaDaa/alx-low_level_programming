@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- * main: prints the specified string to standard output
- * Rerurn: returns 0
+ * main- prints the specified string to standard output
+ * Return: returns 0
  **/
 int main(void)
 {
