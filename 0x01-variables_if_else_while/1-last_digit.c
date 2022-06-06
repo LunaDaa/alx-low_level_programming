@@ -13,7 +13,7 @@ int main(void)
 	int last_digit;
         char m[21];
 	char string_last_digit;
-	char string_n[20];
+	char string_n[100];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
