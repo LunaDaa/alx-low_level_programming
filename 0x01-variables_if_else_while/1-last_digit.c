@@ -24,9 +24,9 @@ int main(void)
 	if (last_digit > 5)
 		strcpy(m, "greater than 5");
 	else if (last_digit == 0)
-		strcopy(m, "0");
+		strcpy(m, "0");
 	else
-		strcopy(m, "less than 6 and not 0");
+		strcpy(m, "less than 6 and not 0");
 	printf("Last digit of %d is %d and is %s", n, last_digit, m);
 	return (0);
 }
