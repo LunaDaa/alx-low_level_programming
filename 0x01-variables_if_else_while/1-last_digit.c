@@ -12,15 +12,11 @@ int main(void)
 	int n;
 	int last_digit;
         char m[22];
-	char string_last_digit;
-	char string_n[100];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	sprintf(string_n, "%d", n);
-	string_last_digit = string_n[-1];
-	last_digit = (int)string_last_digit;
+	last_digit = n % 10
 	if (last_digit > 5)
 		strcpy(m, "greater than 5");
 	else if (last_digit == 0)
