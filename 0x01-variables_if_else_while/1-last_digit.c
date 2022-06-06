@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
         char m;
-	char string_n[];
+	char string_n[20];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
