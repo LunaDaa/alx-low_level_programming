@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
 *main- The functions create a rundom number and
 *prints its last digit and weather it is greater than 5, zero or less than 6
