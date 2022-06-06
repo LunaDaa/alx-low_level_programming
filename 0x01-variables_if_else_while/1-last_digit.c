@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 	int last_digit;
-        char m[15];
+        char m[ ];
 	char string_last_digit;
 	char string_n[20];
 
