@@ -10,6 +10,7 @@
 int main(void)
 {
 	int n;
+	int last_digit;
         char m;
 	char string_last_digit;
 	char string_n[20];
@@ -19,7 +20,7 @@ int main(void)
 	/* your code goes there */
 	sprintf(string_n, "%d", n);
 	string_last_digit = string_n[-1];
-	int last_digit = int(string_last_digit);
+	last_digit = int(string_last_digit);
 	if (last_digit > 5)
 		m = "greater than 5";
 	else if (last_digit == 0)
