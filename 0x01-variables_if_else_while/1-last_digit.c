@@ -11,13 +11,14 @@ int main(void)
 {
 	int n;
         char m;
+	char string_last_digit;
 	char string_n[20];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	sprintf(string_n, "%d", n);
-	char string_last_digit = string_n[-1];
+	string_last_digit = string_n[-1];
 	int last_digit = int(string_last_digit);
 	if (last_digit > 5)
 		m = "greater than 5";
