@@ -1,7 +1,6 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
 *main- The functions create a rundom number and
