@@ -22,7 +22,7 @@ int main(void)
 	string_last_digit = string_n[-1];
 	last_digit = (int)string_last_digit;
 	if (last_digit > 5)
-		m[15] = "greater than 5";
+		strcpy(m, "greater than 5");
 	else if (last_digit == 0)
 		m = "0";
 	else
