@@ -1,10 +1,22 @@
 #include<stdio.h>
-/*
+#include"main.h"
+/**
 *main- prints _putchar
 *Return: returns 0
-*/
+**/
+int _putchar(void)
+{
+char hello[8];
+int i;
+  
+hello = "_putchar";
+  
+for (i = 0; i < 8; i++)
+{
+putchar(hello[i]);
+}
 int main(void)
 {
-  puts("_putchar");
-  return(0);
+_putchar();
+return(0);
 }
