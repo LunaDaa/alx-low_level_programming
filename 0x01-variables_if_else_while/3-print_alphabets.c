@@ -4,19 +4,19 @@
 *      capital letters alphabet
 *Returns- Always returns 0       
 **/
-int main()
+int main(void)
 {
-  char i;
-  char j;
-  
-  for (i = 'a'; i <= 'z'; i++)
-  {
-    putchar (i);
-  }
-  for (j = 'A'; j <= 'Z'; i++)
-  {
+    char i;
+    char j;
+
+    for (i = 'a'; i <= 'z'; i++)
+    {
+      putchar (i);
+    }
+    for (j = 'A'; j <= 'Z'; j++)
+    {
     putchar (j);
-  }
-  putchar ('\n');
-  return (0);
+    }
+    putchar ('\n');
+    return (0);
 }
