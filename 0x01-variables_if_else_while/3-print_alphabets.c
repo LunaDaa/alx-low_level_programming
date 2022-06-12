@@ -2,7 +2,7 @@
 /**
 *main- prints all small letter alphabets followed by
 *      capital letters alphabet
-*Return- Always returns 0
+*Return: Always returns 0
 **/
 int main(void)
 {
