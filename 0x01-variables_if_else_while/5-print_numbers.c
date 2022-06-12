@@ -9,7 +9,8 @@ int i;
 
 for (i = 0; i <= 9; i++)
 {
-print (i);
+putchar (i);
+fflush(stdout);
 }
 putchar('\n');
 return (0);
