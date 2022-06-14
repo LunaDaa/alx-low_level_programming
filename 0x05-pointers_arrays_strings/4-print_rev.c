@@ -6,7 +6,7 @@ int len;
 int i;
 
 len = 0;
-for (i = 0; i != str[i]; i++)
+for (i = 0; i != s[i]; i++)
 {
 len++
 }
