@@ -16,7 +16,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 len++;
 }
-for (i = len-1; i >= 0; i--)
+for (i = len - 1; i >= 0; i--)
 {
 putchar(s[i]);
 }
