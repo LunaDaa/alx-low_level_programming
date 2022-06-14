@@ -4,13 +4,7 @@
 main - 
 Return: Returns 0
 **/
-int main(void)
+void reset_to_98(int *n)
 {
-int m;
-int *p;
-
-m = 87;
-p = &m;
-reset_to_98(p);
-return (0);
+*n = 98;
 }
