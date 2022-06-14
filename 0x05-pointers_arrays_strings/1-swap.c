@@ -3,7 +3,8 @@
 /**
 *swap_int - swaps the value the pointers a nd b holds
 *Return: Nothing
-*@temp: a temporary value to hold one of the values athe pointers old to
+*@a: a pointer to intiger
+*@b: a pointer to intiger
 **/
 void swap_int(int *a, int *b)
 {
