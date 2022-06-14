@@ -12,11 +12,13 @@ int len;
 int i;
 int no_of_swaps;
 int temp;
+  
 len = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
 len++;
 }
+no_of_swaps = len / 2;
 for (i = 0; i < no_of_swaps; i++)
 {
 temp = s[i];
