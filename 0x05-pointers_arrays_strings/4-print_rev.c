@@ -10,7 +10,7 @@ for (i = 0; i != s[i]; i++)
 {
 len++;
 }
-for (i = len; i >= 0; i--)
+for (i = len-2; i >= 0; i--)
 {
 putchar(s[i]);
 }
