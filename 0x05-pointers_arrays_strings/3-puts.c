@@ -4,6 +4,7 @@
 * _puts- prints string
 *Return: nothing
 *@str: a variable that holds a string
+**/
 void _puts(char *str)
 {
 int i;
