@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-main - 
-Return: Returns 0
+reset_to_98-changes the value of the variable it points to 98
+Return: Nothing
 **/
 void reset_to_98(int *n)
 {
