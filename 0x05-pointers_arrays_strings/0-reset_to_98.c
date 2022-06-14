@@ -9,13 +9,17 @@ void reset_to_98(int *n)
 *n = 98;
 }
 
-
+/**
+main - 
+Return: Returns 0
+**/
 int main(void)
 {
 int m;
 int *p;
 
 m = 87;
-p = &m
+p = &m;
 reset_to_98(p);
+return (0);
 }
