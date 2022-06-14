@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_rev-prints string in reverse form
+*rev_string-reverses string 
 *Return: nothing
 *@s: a string variable
 **/
@@ -12,7 +12,7 @@ int len;
 int i;
 int no_of_swaps;
 int temp;
-  
+
 len = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
