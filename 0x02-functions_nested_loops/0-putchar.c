@@ -18,6 +18,6 @@ int main(void)
 {
 char hello[9];
 strcpy(hello, "_putchar");
-_putchar();
+_putchar(hello);
 return(0);
 }
