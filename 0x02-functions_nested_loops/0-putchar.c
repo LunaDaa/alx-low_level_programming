@@ -5,13 +5,9 @@
 *main- prints _putchar
 *Return: returns 0
 **/
-int _putchar(void)
+int _putchar(char hello)
 {
-char hello[9];
 int i;
-  
-strcpy(hello, "_putchar");
-  
 for (i = 0; i < 8; i++)
 {
 putchar(hello[i]);
@@ -20,6 +16,8 @@ return (0);
 }
 int main(void)
 {
+char hello[9];
+strcpy(hello, "_putchar");
 _putchar();
 return(0);
 }
