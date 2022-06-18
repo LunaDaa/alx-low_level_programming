@@ -5,7 +5,7 @@
 *main- prints _putchar
 *Return: returns 0
 **/
-int _putchar(void)
+int print_putchar(void)
 {
 char hello[9];
 int i;
