@@ -5,7 +5,7 @@
 *main- prints _putchar
 *Return: returns 0
 **/
-int _putchar(char hello)
+int _putchar(char *hello)
 {
 int i;
 for (i = 0; i < 8; i++)
