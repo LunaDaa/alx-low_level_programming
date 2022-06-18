@@ -1,9 +1,8 @@
 /*
  * File: 3-strcmp.c
- * Auth: Brennan D Baraban
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strcmp - Compares pointers to two strings.
