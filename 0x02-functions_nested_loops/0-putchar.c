@@ -7,7 +7,7 @@
 **/
 int _putchar(void)
 {
-char hello[8];
+char hello[9];
 int i;
   
 strcpy(hello, "_putchar");
